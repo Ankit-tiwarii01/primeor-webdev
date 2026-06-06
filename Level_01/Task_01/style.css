@@ -94,10 +94,11 @@ body{
 }
 
 .hero-image img{
-    width:500px;
-    max-width:100%;
-    border-radius:15px;
-    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
 }
 
 /* About */
