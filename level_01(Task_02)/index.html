@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Level_01(Task_02)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Internship Tasks</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <button id="btn">Click Me</button>
+    <div class="container">
+
+        <h1>JavaScript Internship Tasks</h1>
+
+        
+        <div class="section">
+            <h2>Task 1: Color Changing Button</h2>
+            <button id="colorBtn">Click Me</button>
+        </div>
+
+        
+        <div class="section">
+            <h2>Task 2: Greeting Alert</h2>
+            <button onclick="showGreeting()">Show Greeting</button>
+        </div>
+
+        
+        <div class="section">
+            <h2>Task 3: Simple Calculator</h2>
+
+            <input type="number" id="num1" placeholder="Enter First Number">
+
+            <input type="number" id="num2" placeholder="Enter Second Number">
+
+            <button onclick="calculate()">Add Numbers</button>
+
+            <div id="result"></div>
+        </div>
+
+    </div>
 
     <script src="script.js"></script>
 </body>
