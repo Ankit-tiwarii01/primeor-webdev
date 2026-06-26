@@ -19,6 +19,4 @@ This repository contains all internship tasks completed during the Web Developme
 - Frontend Development
 - Git & GitHub
 
----
-
 ## 📂 Project Structure
